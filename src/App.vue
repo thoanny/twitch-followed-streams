@@ -34,6 +34,7 @@ const clearAll = () => {
     loggedIn.value = false;
     streams.value = {};
     localStorage.removeItem('user');
+    document.title = `(0) Chaînes Twitch suivies en live`;
 };
 
 onMounted(async () => {
